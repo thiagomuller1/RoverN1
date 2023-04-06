@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC | Mars Rover</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/marsIcon.png">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    
+    <div class="headerContainer">
+        <a class="headerTitle" > ROVER PAC N1</a>
+        <div class="headerMapsContainer">
+        <a class="headerMaps currentHeaderMap"></a>
+        
+    </div>
+    </div>
+
+    
+    <div class="switchContainer">
+        <p class="switchText"></p>
+        <label class="switch">
+            <input type="" id="imagesSwitch" onchange="imagesSwitch()">
+            <span class=""></span>
+          </label>
+    </div>
+
+    <div class="mapContainerContainer">  
+            
+    <div class="mapContainer">
+<div class="mapTile" id="x1y1"> </div>
+<div class="mapTile" id="x2y1"> </div>
+<div class="mapTile" id="x3y1"> </div>
+<div class="mapTile" id="x4y1"> </div>
+<div class="mapTile" id="x5y1"> </div>
+<div class="mapTile" id="x6y1"> </div>
+<div class="mapTile" id="x7y1"> </div>
+<div class="mapTile" id="x8y1"> </div>
+<div class="mapTile" id="x1y2"> </div>
+<div class="mapTile" id="x2y2"> </div>
+<div class="mapTile" id="x3y2"> </div>
+<div class="mapTile" id="x4y2"> </div>
+<div class="mapTile" id="x5y2"> </div>
+<div class="mapTile" id="x6y2"> </div>
+<div class="mapTile" id="x7y2"> </div>
+<div class="mapTile" id="x8y2"> </div>
+<div class="mapTile" id="x1y3"> </div>
+<div class="mapTile" id="x2y3"> </div>
+<div class="mapTile" id="x3y3"> </div>
+<div class="mapTile" id="x4y3"> </div>
+<div class="mapTile" id="x5y3"> </div>
+<div class="mapTile" id="x6y3"> </div>
+<div class="mapTile" id="x7y3"> </div>
+<div class="mapTile" id="x8y3"> </div>
+<div class="mapTile" id="x1y4"> </div>
+<div class="mapTile" id="x2y4"> </div>
+<div class="mapTile" id="x3y4"> </div>
+<div class="mapTile" id="x4y4"> </div>
+<div class="mapTile" id="x5y4"> </div>
+<div class="mapTile" id="x6y4"> </div>
+<div class="mapTile" id="x7y4"> </div>
+<div class="mapTile" id="x8y4"> </div>
+<div class="mapTile" id="x1y5"> </div>
+<div class="mapTile" id="x2y5"> </div>
+<div class="mapTile" id="x3y5"> </div>
+<div class="mapTile" id="x4y5"> </div>
+<div class="mapTile" id="x5y5"> </div>
+<div class="mapTile" id="x6y5"> </div>
+<div class="mapTile" id="x7y5"> </div>
+<div class="mapTile" id="x8y5"> </div>
+<div class="mapTile" id="x1y6"> </div>
+<div class="mapTile" id="x2y6"> </div>
+<div class="mapTile" id="x3y6"> </div>
+<div class="mapTile" id="x4y6"> </div>
+<div class="mapTile" id="x5y6"> </div>
+<div class="mapTile" id="x6y6"> </div>
+<div class="mapTile" id="x7y6"> </div>
+<div class="mapTile" id="x8y6"> </div>
+<div class="mapTile" id="x1y7"> </div>
+<div class="mapTile" id="x2y7"> </div>
+<div class="mapTile" id="x3y7"> </div>
+<div class="mapTile" id="x4y7"> </div>
+<div class="mapTile" id="x5y7"> </div>
+<div class="mapTile" id="x6y7"> </div>
+<div class="mapTile" id="x7y7"> </div>
+<div class="mapTile" id="x8y7"> </div>
+<div class="mapTile" id="x1y8"> </div>
+<div class="mapTile" id="x2y8"> </div>
+<div class="mapTile" id="x3y8"> </div>
+<div class="mapTile" id="x4y8"> </div>
+<div class="mapTile" id="x5y8"> </div>
+<div class="mapTile" id="x6y8"> </div>
+<div class="mapTile" id="x7y8"> </div>
+<div class="mapTile" id="x8y8"> </div>
+    </div>
+    <p id="clickText">ADICIONE UM OBSTACULO &#9724</p>
+</div>
+    <div class="statsContainer">
+        <p id="subtitle" class="stats">&zwnj;</p>
+        <p id="currentTile" class="stats">&zwnj;</p>
+        <p id="start" class="stats"></p>
+        <p id="objective" class="stats"></p>
+        <p id="obstacles" class="stats"></p>
+        <p id="showMore" class="stats" onclick="showMoreClick()">Mostrar mais</p>
+    </div>
+    <div class="buttonContainer">
+        <button class="button glow" onclick="buttonClick()">
+            START 
+            <svg class="glowContainer">
+                <rect class="glowBlur" pathLength="100" stroke-linecap="round"></rect>
+                <rect class="glowBlur glowBlur2" pathLength="100" stroke-linecap="round"></rect>
+                <rect class="glowLine" pathLength="100" stroke-linecap="round"></rect>
+                <rect class="glowLine glowLine2" pathLength="100" stroke-linecap="round"></rect>
+            </svg>
+        </button>
+    </div>
+
+
+</body>
+</html>
